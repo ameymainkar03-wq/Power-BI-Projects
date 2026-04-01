@@ -42,9 +42,28 @@ header {
     border-radius: 5px;
 }
 
-.btn:hover {
+/* .btn:hover {
     background-color: #163172;
-}
+} */
+
+.card:hover {
+            transform: translateY(-10px) scale(1.03);
+            box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+        }
+
+.btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background: #2563eb;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+
+.btn:hover {
+            background: #1e40af;
+        }
 
 .project img {
     width: 80%;
